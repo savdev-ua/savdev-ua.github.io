@@ -1,0 +1,197 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 16px;
+}
+#top-line{
+    display:flex;
+	justify-content: space-between;
+    background-color:black;
+    color:white;
+    font-family:sans-serif;
+    font-size: 12px;
+    height: 44px;
+    vertical-align: middle;
+}
+* {
+	box-sizing: border-box;
+}
+.header{
+    margin: 0 auto;
+    width: auto;
+}
+#desk-left{
+    display: flex;
+    align-items: center;
+}
+#desk-right{
+    display: flex;
+    align-items: center;
+}
+.icon{
+   margin-right: 16px;
+   height: 13px;
+   width: 13px;
+   
+}
+.icon2{
+    margin-right: 12px;
+    
+}
+#nav{
+    display: flex;
+    background-color: #0F0F0F;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.logotip{
+    width:104px;
+    height: 49px;
+}
+.nav li a{
+    text-transform: uppercase;
+	font-size: 14px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul, li {
+	display: block;
+    
+}
+li{
+    padding-right: 20px;
+}
+.menu{
+display: flex;
+}
+#first-screen{
+    background: url('../img/background1.png') no-repeat center top / cover;
+    display: block;
+    padding-top: 160px;
+}  
+.block{
+    
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+    justify-content: center;
+}
+#block{
+  display: block;
+  height: 320px;
+  width:320px;
+  
+}
+#text1{
+    width:730px;
+    line-height: 24px;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.text1{
+    padding-top: 80px;   
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 154px;
+}
+.blogo{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+}
+#blogo{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    padding-bottom: 4px;
+}
+#blogos{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    vertical-align: top;
+    width: auto;
+    margin-top: 0px;
+}
+#piter{
+    margin-top: 0px;
+}
+.block{
+    border-width: 4px;
+    height: 320px;
+    width: 320px;
+    border-color: white;
+    border-style: solid;
+    
+}
+#poloska{
+    height:2px;
+    border-width: 2px;
+    color:white;
+    width: 179px;
+    margin-top: 0;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+#nadpis{
+    margin-bottom: 4px;
+   
+}
+
+
+
+#season{
+    color: white;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+padding-top: 93px;
+margin-top: 0;
+}
+#poloska2{
+width: 120px;
+height: 1px;
+margin-bottom: 50px;
+}
+.products{
+display: flex;
+padding-bottom: 93px;
+align-items: center;
+justify-content: center;
+}
+.product{
+    background-color: #191B1C;
+    width: 260px;
+    height: 325px;
+    margin-right: 50px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.clock p{
+    color:white;
+}
+
+
+.secondscreen{
+    background-color: black;
+    display: block;
+    padding-top: 30px;
+}
