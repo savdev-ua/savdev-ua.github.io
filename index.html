@@ -3,94 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Porten</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>HomeWork 6</title>
 </head>
 <body>
-     <div id="header" class="header">
-        <div id="top-line">
-            <div id="desk-left">
-              
-            <img src="img/phone.svg" alt="Call" class="icon">
-            <p>8 (812) 123-45-67    |    Работаем 7 дней в неделю    |    9:00 — 18:00  </p>
-            
-            </div>
-            <div id="desk-right">
-            <img src="img/login.svg" alt="Enter" class="icon2">
-            <p>Войти / Регистрация</p>
-            
+    <header id="header" class="header">
+        <div class="container">
+           <img src="img/logo.png" alt="WayUp logo" class="logo animated flash">
+           <div class="wrapper">
+                <div class="offer animated fadeInRight">
+                    <h1 class="title">С помощью верстки<br> я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+                    <p class="intro">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
+                    <a href="#" class="btn" target="_blank">Двигаться к мечте!</a>
+                </div>
+            <img src="img/desktop.png" alt="Main image" class="desktop animated rotateIn">
             </div>
         </div>
-        <div id="nav" class="nav">
-            <div id="desk-left">
-                <img src="img/logo.svg" alt="Porten" class="logotip">
-            </div>
-            <div id="desk-right">
-                <ul class="menu">
-                    <li><a href="#">понравилось</a></li>
-                    <li><a href="#">личный кабинет</a></li>
-                    <li><a href="#">настройки</a></li>
-                    <li><img src="img/cart.svg" alt="Cart" class="logo"></li>
-                    <li><img src="img/search.svg" alt="Search" class="logo"></li>
-                </ul>
-            </div>
-        </div>
-        <div id="first-screen">
-            <div class="block" id="block">
-                <div id="blogo" class="blogo">
-                    <p id="nadpis">porten</p>
-                    <hr id="poloska">
-                </div>
-                <div id="blogos" class="blogo">
-                    <p id="piter">санкт-петербург</p>
-                </div>
+    </header>
+    <section id="learn" class="learn">
+        <div class="container">
+            <h2 class="section-title animated">Что меня ждет впереди</h2>
 
-
-            </div>
-            <div id="text1" class="text1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
-            </div>
-        </div>
-    </div>
-<div class="secondscreen" id="secondscreen">
- 
-   
-    <div class="verh" id="verh">
-    <p id="season">СЕЗОН 2020/21</p>
-    <hr id="poloska2"></div>
-
-        <div class="niz" id="niz">
-            <div class="products" id="products">
-                <div class="clock">
-                    <div class="product" id="levclock">
-                        <img src="img/cl1.png" alt="First clock">
-                    </div>  
-                    <p id="levnad">Louis XVI ATHOS</p>
-                    <p id="levnad">165 000 руб.</p>
-                  
-                </div>
-                <div class="clock">
-                    <div class="product">
-                        <img src="img/cl2.png" alt="Second clock">
+                <div class="skills" id="skills">
+                    <div class="skill skill-time">
+                        <h3 class="skill-title">Свободное время</h3>
+                        <p class="skill-text">Мне нужно свободное время на семью и самое настоящее</p>
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>  
-                  
-                </div>
-                <div class="clock">  
-                    <div class="product">
-                        <img src="img/cl3.png" alt="Third clock">
+                    <div class="skill skill-beach">
+                        <h3 class="skill-title">Яркие путешествия</h3>
+                        <p class="skill-text">Мне нужно свободное время на семью и самое настоящее</p>
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>    
-                
+                    <div class="skill skill-launch">
+                        <h3 class="skill-title">Создание ценности</h3>
+                        <p class="skill-text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-   
 
-   
-</div>
-</body>
+        </div>
+    </section>
+    <section id="mail" class="mail">
+        <div class="container second-cont">
+            <h2 class="section-title" id="formout">Форма заказа билета в будущее</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" class="input" placeholder="Имя" required>
+                <input type="email" name="email" class="input" placeholder="E-mail" required>
+                <input type="tel" name="tel" class="input" placeholder="Телефон" required>
+                <input type="text" name="kuda" class="input" placeholder="Куда я полечу в ближайшее время?" required>
+                <button type="submit" class="btn new-btn animated">Двигаться к мечте!</button>
+            </form>
+            
+            
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+                <p class="rights">©Все мои мечты зашищены моим трудолюбием</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+    </body>
 </html>
