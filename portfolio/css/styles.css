@@ -2097,6 +2097,9 @@ progress {
 }
 
 @media (max-width: 575.98px) {
+  .foto{
+    margin-top:15px;
+  }
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
