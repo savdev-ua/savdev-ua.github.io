@@ -2066,7 +2066,9 @@ progress {
   color: #000;
   border-color: #dfc2c4;
 }
-
+.pados{
+  padding-bottom: 20px;
+}
 .table-light {
   --bs-table-bg: #f8f9fa;
   --bs-table-striped-bg: #ecedee;
@@ -2097,9 +2099,7 @@ progress {
 }
 
 @media (max-width: 575.98px) {
-  .foto{
-    margin-top:15px;
-  }
+  
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
