@@ -251,7 +251,9 @@ code {
 a > code {
   color: inherit;
 }
-
+.item7{
+  margin-top: 1.5rem;
+}
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
